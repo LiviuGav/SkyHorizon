@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Local config
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+
+# Firebase config
+app/google-services.json
+
+# Keystore (dacă există)
+*.keystore
+*.jks
+
+# Logs
+*.log
+
+# Screenshots and captures
+captures/
+
+# OS files
+.DS_Store
+Thumbs.db

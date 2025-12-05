@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_refresh"
+        android:title="Refresh"
+        android:icon="@drawable/ic_refresh"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_add_favorite"
+        android:title="Add to Favorites"
+        android:icon="@drawable/ic_unfavourite"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_favorites"
+        android:title="Favorite Cities" />
+    <item
+        android:id="@+id/action_logout"
+        android:title="Logout" />
+</menu>
